@@ -1,0 +1,58 @@
+/* Dropdown Menu Container */
+.dropdownMenu {
+  position: absolute;
+  top: 65px; /* Adjusted to appear below the navigation bar */
+  right:10rem; /* Adjusted position relative to the Menu button */
+  background-color: #333; /* Darker background for better contrast */
+  border: 1px solid #444; /* Slightly darker border for a subtle effect */
+  border-radius: 10px; /* Smooth, rounded corners */
+  padding: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow for a floating effect */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+/* List of Menu Items */
+.dropdownMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+/* Individual Menu Item */
+.dropdownMenu ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #555; /* Separate items with a border */
+  display: flex;
+  justify-content: center; /* Center-align the items */
+  align-items: center;
+}
+
+.dropdownMenu ul li:last-child {
+  border-bottom: none; /* Remove border from the last item */
+}
+
+/* Menu Item Button */
+.dropdownMenu ul li button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center; /* Center-align the text */
+  font-size: 1em;
+  padding: 8px 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 8px; /* Rounded corners for buttons */
+}
+
+.dropdownMenu ul li button:hover {
+  background-color: #007bff; /* Highlight on hover */
+  color: white;
+}
+
+/* Optional: Add a little padding to the top of the first menu item */
+.dropdownMenu ul li:first-child {
+  padding-top: 10px;
+}

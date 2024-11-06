@@ -1,0 +1,167 @@
+/* General Cart Container */
+.cartContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f7f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Style */
+.cartHeader {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Empty Cart Message */
+.emptyCart {
+  font-size: 1.2em;
+  color: #777;
+}
+
+/* Error Message Styling */
+.errorMessage {
+  color: #d9534f;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* List of Products in the Cart */
+.cartItems {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual Cart Item */
+.cartItem {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cartItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Product Image */
+.cartItem img {
+  max-width: 150px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+/* Product Details */
+.cartItemDetails {
+  flex: 1;
+  color: #555;
+}
+
+.cartItemDetails h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.cartItemDetails p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+/* Quantity Control Buttons */
+.quantityControl {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantityControl button {
+  padding: 6px 12px;
+  margin: 0 5px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.quantityControl button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.quantityControl button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.quantityControl span {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Price, Tax, and Total Styling */
+.cartSummary {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.cartSummary h2 {
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Clear Cart and Checkout Buttons */
+.clearCartButton,
+.checkoutButton {
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.clearCartButton {
+  background-color: #ff4d4d;
+  color: white;
+  margin-right: 10px;
+}
+
+.clearCartButton:hover {
+  background-color: #e60000;
+}
+
+.checkoutButton {
+  background-color: #28a745;
+  color: white;
+}
+
+.checkoutButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.checkoutButton:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+/* PayPal Section */
+.paypalContainer {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

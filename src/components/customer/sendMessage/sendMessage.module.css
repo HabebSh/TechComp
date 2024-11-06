@@ -1,0 +1,61 @@
+.sendMessageContainer {
+  position: fixed; /* Fixed positioning to make it like a modal */
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the form on the screen */
+  background-color: #333; /* Dark background similar to the dropdown menu */
+  padding: 20px;
+  border-radius: 10px; /* Smooth, rounded corners */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow for a floating effect */
+  z-index: 1000; /* Ensure it appears above other elements */
+  width: 300px;
+  color: #fff; /* White text color for contrast */
+}
+
+.sendMessageContainer form div {
+  margin-bottom: 15px;
+}
+
+.sendMessageContainer label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ddd; /* Lighter color for labels */
+}
+
+.sendMessageContainer input,
+.sendMessageContainer textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #555; /* Darker border to match the theme */
+  background-color: #444; /* Dark input background */
+  color: #fff; /* White text color */
+}
+
+.sendMessageContainer textarea {
+  resize: none; /* Prevent resizing for a cleaner look */
+}
+
+.sendMessageContainer button {
+  padding: 10px 15px;
+  background-color: #007bff; /* Blue background for primary button */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.sendMessageContainer button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.sendMessageContainer button[type="button"] {
+  background-color: #6c757d; /* Gray background for cancel button */
+}
+
+.sendMessageContainer button[type="button"]:hover {
+  background-color: #5a6268; /* Darker gray on hover */
+}

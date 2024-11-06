@@ -1,0 +1,105 @@
+
+.orderDetailsContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detailsHeader {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.detailsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detailsList li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.detailsList li:last-child {
+  border-bottom: none;
+}
+
+.detailsLabel {
+  font-weight: bold;
+  color: #333;
+  flex: 1;
+}
+
+.detailsValue {
+  margin-left: 10px;
+  color: #666;
+  flex: 2;
+}
+
+.detailsActions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.detailsActions button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.detailsActions button:hover {
+  background-color: #0056b3;
+}
+
+.detailsActions button + button {
+  margin-left: 10px;
+}
+
+.orderDetailsTable {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.orderDetailsTable th,
+.orderDetailsTable td {
+  padding: 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.orderDetailsTable th {
+  font-weight: bold;
+  color: #333;
+}
+
+.orderDetailsTable img.productImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.orderDetailsTable th.imageColumn,
+.orderDetailsTable td.imageColumn {
+  width: 150px;
+}
+
+.orderDetailsTable th.nameColumn,
+.orderDetailsTable td.nameColumn {
+  padding-left: 20px;
+}

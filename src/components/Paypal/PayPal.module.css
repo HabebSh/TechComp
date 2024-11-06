@@ -1,0 +1,25 @@
+/* Container for the PayPal component */
+.PayPal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* PayPal Button Container */
+.PayPalButtonsContainer {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Center the PayPal buttons */
+.PayPal .paypal-buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

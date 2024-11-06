@@ -1,0 +1,167 @@
+
+
+.container {
+  display: flex;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.productsSaveContainer {
+  padding-left: 15rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.formGroup input,
+.formGroup select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.formGroup button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formGroup button:hover {
+  background-color: #45a049;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: bold;
+}
+
+.productsList {
+  margin-top: 20px;
+}
+
+.productsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.productsTable th,
+.productsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.productsTable th {
+  background-color: #f2f2f2;
+}
+
+.productImage {
+  max-width: 100px;
+  height: auto;
+}
+
+.productsTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.productsTable tr:hover {
+  background-color: #ddd;
+}
+
+.productActions button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.addproductbtn{
+  color: #da190b;
+}
+.productActions button:first-child {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+}
+
+.productActions button:first-child:hover {
+  background-color: #0b7dda;
+}
+
+.productActions button:last-child {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+.productActions button:last-child:hover {
+  background-color: #da190b;
+}
+
+.topbar {
+  padding: 2rem;
+  margin-left: 15rem;
+}
+.filterall {
+  display: flex;
+  align-items: center; /* Align them vertically centered */
+}
+
+.filterproduct {
+  margin-right: 1rem; /* Add some space between the label and the select box */
+
+  display: flex;
+}
+
+.filterproduct label {
+  margin-right: 0.5rem; /* Add some space between the label text and the select dropdown */
+}
+
+.filterproduct select {
+  padding: 0.3rem;
+  font-size: 1rem; /* Adjust font size if necessary */
+}
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.paginationControls button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 16px;
+}
+
+.paginationControls button:hover {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.05);
+}
+
+.paginationControls .activePage {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+.paginationControls button:focus {
+  outline: none;
+}

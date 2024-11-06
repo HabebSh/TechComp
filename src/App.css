@@ -1,0 +1,89 @@
+/* General styles for the app */
+.App {
+  text-align: center;
+  /* background-color: #f5f5f5; */
+  background-color: #d2dfdf;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Logo styles with a smooth spin animation */
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+  margin-bottom: 20px;
+  animation: App-logo-bounce infinite 5s ease-in-out;
+}
+
+/* Header styles for a clean and modern look */
+.App-header {
+  background-color: #1e2a38;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Link styles with a more subtle color and hover effect */
+.App-link {
+  color: #4fa3e3;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #61dafb;
+  text-decoration: underline;
+}
+
+/* Animation for the logo spin with a gentle bounce */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Responsive media query for smooth animations on capable devices */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear,
+      App-logo-bounce infinite 5s ease-in-out;
+  }
+}
+.customer {
+  background-color: #d2dfdf;
+}
+.mainContainer {
+  background-color: #d2dfdf;
+  width: 100%;
+  height: 100%;
+  margin-bottom: -3rem;
+}
+.header {
+  background-color: #2c3f48;
+}

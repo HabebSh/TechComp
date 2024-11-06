@@ -1,0 +1,28 @@
+.selectCategory {
+
+ margin-top:0rem ;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+}
+
+.selectCategory select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  margin-top: -7rem
+}
+
+.selectCategory select:hover {
+  border-color: #888;
+}
+
+.selectCategory select:focus {
+  outline: none;
+  border-color: #4caf50;
+}

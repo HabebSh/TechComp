@@ -1,0 +1,27 @@
+.toggleBar {
+  width: 50px;
+  height: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  transition: background-color 0.3s;
+  background-color: grey;
+}
+
+.toggleThumb {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.active {
+  background-color: green;
+}
+
+.active .toggleThumb {
+  transform: translateX(25px); /* Move the thumb to the right */
+}

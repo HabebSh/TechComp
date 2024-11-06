@@ -1,0 +1,52 @@
+.settingsContainer {
+  margin-left: 270px; /* Adjust for sidebar width */
+  padding: 20px;
+  background-color: #fefefe;
+  color: #fff;
+}
+
+.settingsContainer h2 {
+  margin-bottom: 20px;
+}
+
+.settingsContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsContainer label {
+  margin-bottom: 10px;
+}
+
+.settingsContainer input[type="text"],
+.settingsContainer input[type="email"],
+.settingsContainer input[type="password"],
+.settingsContainer input[type="checkbox"] {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.settingsContainer input[type="checkbox"] {
+  width: auto;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.buttonGroup button {
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonGroup button:hover {
+  background-color: #16a085;
+}

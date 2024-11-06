@@ -1,0 +1,21 @@
+/* Define the top bar style specifically for this component */
+.topBar {
+  background-color: #2c3e50; /* Dark blue background for top bar */
+  color: #ecf0f1; /* Light text color */
+  padding: 20px; /* Padding for spacing */
+  text-align: center; /* Center the content */
+  border-bottom: 4px solid #1abc9c; /* Green bottom border */
+  font-family: 'Montserrat', sans-serif; /* Custom font family */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+margin-top: -1.3rem;
+}
+
+/* Style for the heading inside the top bar */
+.topBar h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+  color: #ffce56; /* White text color */
+  font-family: serif;
+  margin-left: 9rem;
+}

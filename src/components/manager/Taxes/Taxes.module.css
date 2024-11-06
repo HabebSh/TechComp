@@ -1,0 +1,49 @@
+
+.taxesContainer {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.taxesContainer h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.taxesContainer label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.taxesContainer input[type="number"] {
+  width: calc(100% - 24px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.taxesContainer button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.taxesContainer button:hover {
+  background-color: #0056b3;
+}

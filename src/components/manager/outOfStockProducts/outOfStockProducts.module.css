@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+ 
+}
+
+.container {
+  display: flex;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.productsSaveContainer {
+  padding-left: 15rem;
+}
+
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+ .selectAllContainer {
+  display: flex;
+  flex-direction: column; /* Arranges items vertically */
+  align-items: flex-start; /* Aligns the label and checkbox to the left */
+}
+
+.selectAllCheckbox {
+  margin-top: 5px; /* Adds space between the label and the checkbox */
+}
+
+.selectAllLabel {
+  display: block; /* Ensures the label takes up its own line */
+}
+
+
+
+.selectAllContainer {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.selectAllLabel {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-right: -136rem;
+}
+
+.selectAllCheckbox {
+  /* margin-right: 5px; */
+      margin-right: -70rem;
+       margin-top: -1.5rem;
+}
+
+.productsList {
+  margin-top: 10px;
+}
+
+.productsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.productsTable th,
+.productsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.productsTable th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.productImage {
+  max-width: 100px;
+  height: auto;
+}
+
+.productsTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.productsTable tr:hover {
+  background-color: #ddd;
+}
+.orderButton ,.clearbutton{
+
+  padding: 0.5rem;
+}
+.header h1{
+
+  text-align: center;
+}
+.selectAllContainer select{
+
+  margin: 2rem;
+}
+
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.paginationControls button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.paginationControls button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.paginationControls .activePage {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}

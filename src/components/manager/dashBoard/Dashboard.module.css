@@ -1,0 +1,111 @@
+.dashboardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 20px;
+  margin-left: 250px; /* Adjust for sidebar width */
+}
+
+.dashboardTitle {
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.statsContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.statBox {
+  background-color: #3b3b3b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.dateSelector,
+.chartTypeSelector {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.chartContainer {
+  background-color: #3b3b3b;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chartWrapper {
+  background-color: #252525;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px; /* Match this with the PieChart's max-width */
+  max-height: 400px; /* Match this with the PieChart's max-height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure the chart does not overflow its container */
+}
+
+.chartWrapper canvas {
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  width: 100%; /* Ensure the canvas scales to fit the wrapper */
+  height: 100%; /* Ensure the canvas scales to fit the wrapper */
+}
+
+h2 {
+  color: #ffce56;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.dateSelector label{
+  color: white;
+  margin-right: 0.5rem; 
+}
+.chartTypeSelector label {
+  color: white;
+}
+.productLimitSelector label {
+  color: white;
+}
+.dateSelector input {
+  margin-right: 8.3rem; /* Use margin-right to push the next input closer */
+}
+
+.chartTypeSelector select{
+
+padding: 0.5rem;
+    font-size: medium;
+    margin-right: 22rem;
+
+}
+.errorMessage {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+}

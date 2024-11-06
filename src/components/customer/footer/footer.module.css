@@ -1,0 +1,48 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footerSection {
+  margin: 10px;
+}
+
+.footerSection h4 {
+  margin-bottom: 10px;
+}
+
+.footerSection p,
+.footerSection ul {
+  font-size: 14px;
+}
+
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerSection ul li {
+  margin: 5px 0;
+}
+
+.socialLinks a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.socialLinks a:hover {
+  text-decoration: underline;
+}
+
+.footerBottom {
+  margin-top: 20px;
+}

@@ -1,0 +1,159 @@
+.productsContainer {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.filterSidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+  width: 20%;
+}
+
+.types {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.productsList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product:hover {
+  transform: translateY(-10px);
+  box-shadow: 1px 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.productImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 70%;
+}
+
+.productImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.discountBadge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ff4b4b;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.seeDetailsButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.paginationControls button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.paginationControls button:hover {
+  background-color: #0056b3;
+}
+
+.activePage {
+  background-color: #0056b3;
+  font-weight: bold;
+}
+
+.discountCenterBanner {
+  background-color: #1c253f;
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  width: 50%;
+  border: 3px solid #ffd700;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.discountCenterBanner img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.discountCenterBanner .discount_info {
+  font-size: 20px;
+}
+.filterSidebar {
+  position: static;
+  top: 0;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+  width: 20%;
+  overflow-y: auto;
+}
+
+.types {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="checkbox"] {
+  margin-left: 5px;
+}

@@ -1,0 +1,59 @@
+.messagesContainer {
+  margin-left: 270px; /* Adjust this value based on the sidebar width */
+  padding: 20px;
+  overflow-x: auto; /* To handle overflow if the table is too wide */
+}
+
+.messagesTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.messagesTable th, .messagesTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: right; /* Align all text to the right by default */
+}
+
+.messagesTable th {
+  background-color: #f2f2f2;
+}
+
+.messagesTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.messagesTable tr:hover {
+  background-color: #ddd;
+}
+
+.messagesTable td.messageColumn {
+  text-align: left; /* Align message column text to the left */
+}
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginationControls button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.paginationControls button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.paginationControls .activePage {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
